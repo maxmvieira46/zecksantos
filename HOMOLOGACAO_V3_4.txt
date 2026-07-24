@@ -1,0 +1,9 @@
+HOMOLOGAÇÃO V3.4
+
+Lookbook final:
+- Total: 9 imagens.
+- Ordem aplicada: antigo 11, 1, 2, 3, 4, 5, 7, 8 e 12.
+- Antigos itens 6, 9 e 10 removidos.
+- Antigo item 12 mantido como último.
+- Numeração visual atualizada de 01 a 09.
+- Rotação automática permanece configurada para 1 segundo.

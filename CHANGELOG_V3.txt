@@ -1,0 +1,70 @@
+HOMOLOGACAO V3
+
+1. Hero
+- Rotacao automatica entre looks 01 a 04 a cada 3 segundos.
+- Pausa durante interacao e retomada automatica.
+- Barra de progresso discreta.
+
+2. Croqui para peca
+- Remocao do fluxo longo de quatro etapas.
+- Um clique revela a projecao; outro retorna ao croqui.
+- Blazer, camisa, calca, saia e colete ganham foco cromatico na area correspondente da roupa.
+- Ficha tecnica permanece opcional.
+
+3. Engenharia invisivel
+- Cinco camadas com codigo de cor.
+- Visao completa, construcao explodida e inspecao individual.
+- Leitura tecnica atualizada em tempo real.
+
+4. Lookbook
+- Rotacao automatica a cada 5 segundos.
+- Navegacao por setas, arraste e teclado.
+- Contador e progresso.
+
+5. Experiencia
+- Textos de orientacao menos chamativos.
+- Estados de foco, aria-pressed e prefers-reduced-motion revisados.
+- Todos os caminhos de imagens foram validados.
+- JavaScript validado com node --check.
+
+V3.1
+- Implementada estrutura cromática completa de 48 variações.
+- Cards do croqui reduzidos para três colunas em desktop.
+- Hero ampliado para oito cores.
+- Coleção com paleta interativa sobre a prancha.
+- Cromatismo sincronizado com duas imagens e descrições por família.
+- Lookbook com 16 looks e rotação automática.
+
+
+V3.2 - Homologação visual HD
+- Reprocessadas as 48 variações em 1122x1402, preservando textura e contornos.
+- Removidos vazamentos de cor e filtros que reduziam nitidez.
+- Hero, Cromatismo e Lookbook atualizados para ativos em alta resolução.
+- Lookbook com rotação automática contínua e retomada após interação.
+
+V3.2 - Homologação visual e carrossel
+- Recriação das 48 variações cromáticas em 1122 x 1402 px.
+- Remoção de filtros de saturação, escala e blur nas imagens da paleta, hero e lookbook.
+- Máscaras refinadas para preservar pele, cenário, peças complementares e detalhes construtivos.
+- Correção específica do Blazer Fluxo para impedir vazamento de cor no colo e na Saia Ritmo.
+- Carrossel final configurado para rotação automática a cada 5 segundos.
+- Rotação retomada automaticamente após arraste, navegação manual ou retorno à seção.
+- Validação em desktop e mobile, sem erros de JavaScript e sem referências de imagem ausentes.
+
+V3.3 - QUALIDADE VISUAL E LOOKBOOK
+- Removidas todas as 48 imagens recoloridas artificialmente.
+- Removidos os seletores cromaticos das pecas e da prancha.
+- Mantidas somente imagens originais em alta definicao.
+- Secao de cromatismo reconstruida com prancha original e looks integrais.
+- Lookbook reconstruido com 12 imagens originais.
+- Rotacao automatica configurada para 1 segundo.
+- Validacao visual executada em desktop 1440x1000 e mobile 390x844.
+- Teste automatico confirmou avanco de dois slides em aproximadamente 2,3 segundos no desktop e no mobile.
+- Nenhum erro de JavaScript ou de console detectado durante a homologacao.
+
+V3.4
+- Reorganizado o carrossel final do lookbook.
+- Removidos os antigos itens 06, 09 e 10.
+- O antigo item 11 foi movido para a primeira posição.
+- O antigo item 12 permanece como encerramento.
+- Numeração atualizada para 01 a 09.
